@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Lobster&display=swap');
+
+
+/*
+.nav-item{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-brand{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    margin-left: 150px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    align-items: center;
+}
+    */
+
+    .lobster-regular {
+        font-family: "Lobster", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .cabin-regular {
+        font-family: "Cabin", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+        
+      .cabin-bold {
+        font-family: "Cabin", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }

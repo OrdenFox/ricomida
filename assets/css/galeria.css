@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif, arial;
+    background: white;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    border-bottom: 3px solid orange;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 1400px;
+    margin: 0;
+    padding: 20px 10px;
+}
+
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
